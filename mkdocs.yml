@@ -213,6 +213,9 @@ nav:
     - Debian offline package: linux/Debian-offline-package.md
     - Redhat offline package: linux/Redhat-offline-package.md
   
+  - Security:
+    - NGINX: Security/Public Free Certificate Application and Automatic Renewal.md
+  
   - CICD:
     - Jenkins: cicd/Jenkins-Pipeline.md
     - Gitlab: cicd/Gitlab-Pipeline.md
