@@ -464,8 +464,8 @@ services:
       DB_USER: "wikijs"
       DB_PASS: "wikijs_password"
       DB_NAME: "wikijs"
-      WIKI_ADMIN_EMAIL: "freemankevin2017@gmail.com"
-      WIKI_ADMIN_PASSWORD: "Admin@123.com"
+      WIKI_ADMIN_EMAIL: "your@example.com"
+      WIKI_ADMIN_PASSWORD: "your_password"
     depends_on:
       - db
     volumes:
