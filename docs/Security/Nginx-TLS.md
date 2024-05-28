@@ -314,7 +314,7 @@ services:
 server {
     listen [::]:80;
     listen 80;
-    server_name freemankevin.uk;
+    server_name example.com;
     location ~/.well-known/acme-challenge {
         allow all;
         root /var/www/certbot;
@@ -396,7 +396,7 @@ server {
     listen [::]:80;
     listen 80;
 
-    server_name freemankevin.uk;
+    server_name example.com;
 
     return 301 https://$host$request_uri;
 }
@@ -405,10 +405,10 @@ server {
     listen [::]:443 ssl;
     listen 443 ssl;
 
-    server_name freemankevin.uk; 
+    server_name example.com; 
 
-    ssl_certificate /etc/letsencrypt/live/freemankevin.uk/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/freemankevin.uk/privkey.pem;
+    ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem;
 
     location ~ /.well-known/acme-challenge {
         allow all;
