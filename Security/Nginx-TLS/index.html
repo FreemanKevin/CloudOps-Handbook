@@ -74,7 +74,7 @@
 </span></code></pre></div> <p>使用这里的配置文件模版： <code>default-before.conf</code></p> <div class="language-shell highlight"><pre><span></span><code><span id=__span-17-1><a id=__codelineno-17-1 name=__codelineno-17-1 href=#__codelineno-17-1></a>server<span class=w> </span><span class=o>{</span>
 </span><span id=__span-17-2><a id=__codelineno-17-2 name=__codelineno-17-2 href=#__codelineno-17-2></a><span class=w>    </span>listen<span class=w> </span><span class=o>[</span>::<span class=o>]</span>:80<span class=p>;</span>
 </span><span id=__span-17-3><a id=__codelineno-17-3 name=__codelineno-17-3 href=#__codelineno-17-3></a><span class=w>    </span>listen<span class=w> </span><span class=m>80</span><span class=p>;</span>
-</span><span id=__span-17-4><a id=__codelineno-17-4 name=__codelineno-17-4 href=#__codelineno-17-4></a><span class=w>    </span>server_name<span class=w> </span>freemankevin.uk<span class=p>;</span>
+</span><span id=__span-17-4><a id=__codelineno-17-4 name=__codelineno-17-4 href=#__codelineno-17-4></a><span class=w>    </span>server_name<span class=w> </span>example.com<span class=p>;</span>
 </span><span id=__span-17-5><a id=__codelineno-17-5 name=__codelineno-17-5 href=#__codelineno-17-5></a><span class=w>    </span>location<span class=w> </span>~/.well-known/acme-challenge<span class=w> </span><span class=o>{</span>
 </span><span id=__span-17-6><a id=__codelineno-17-6 name=__codelineno-17-6 href=#__codelineno-17-6></a><span class=w>        </span>allow<span class=w> </span>all<span class=p>;</span>
 </span><span id=__span-17-7><a id=__codelineno-17-7 name=__codelineno-17-7 href=#__codelineno-17-7></a><span class=w>        </span>root<span class=w> </span>/var/www/certbot<span class=p>;</span>
@@ -115,7 +115,7 @@
 </span><span id=__span-22-2><a id=__codelineno-22-2 name=__codelineno-22-2 href=#__codelineno-22-2></a><span class=w>    </span>listen<span class=w> </span><span class=o>[</span>::<span class=o>]</span>:80<span class=p>;</span>
 </span><span id=__span-22-3><a id=__codelineno-22-3 name=__codelineno-22-3 href=#__codelineno-22-3></a><span class=w>    </span>listen<span class=w> </span><span class=m>80</span><span class=p>;</span>
 </span><span id=__span-22-4><a id=__codelineno-22-4 name=__codelineno-22-4 href=#__codelineno-22-4></a>
-</span><span id=__span-22-5><a id=__codelineno-22-5 name=__codelineno-22-5 href=#__codelineno-22-5></a><span class=w>    </span>server_name<span class=w> </span>freemankevin.uk<span class=p>;</span>
+</span><span id=__span-22-5><a id=__codelineno-22-5 name=__codelineno-22-5 href=#__codelineno-22-5></a><span class=w>    </span>server_name<span class=w> </span>example.com<span class=p>;</span>
 </span><span id=__span-22-6><a id=__codelineno-22-6 name=__codelineno-22-6 href=#__codelineno-22-6></a>
 </span><span id=__span-22-7><a id=__codelineno-22-7 name=__codelineno-22-7 href=#__codelineno-22-7></a><span class=w>    </span><span class=k>return</span><span class=w> </span><span class=m>301</span><span class=w> </span>https://<span class=nv>$host$request_uri</span><span class=p>;</span>
 </span><span id=__span-22-8><a id=__codelineno-22-8 name=__codelineno-22-8 href=#__codelineno-22-8></a><span class=o>}</span>
@@ -124,10 +124,10 @@
 </span><span id=__span-22-11><a id=__codelineno-22-11 name=__codelineno-22-11 href=#__codelineno-22-11></a><span class=w>    </span>listen<span class=w> </span><span class=o>[</span>::<span class=o>]</span>:443<span class=w> </span>ssl<span class=p>;</span>
 </span><span id=__span-22-12><a id=__codelineno-22-12 name=__codelineno-22-12 href=#__codelineno-22-12></a><span class=w>    </span>listen<span class=w> </span><span class=m>443</span><span class=w> </span>ssl<span class=p>;</span>
 </span><span id=__span-22-13><a id=__codelineno-22-13 name=__codelineno-22-13 href=#__codelineno-22-13></a>
-</span><span id=__span-22-14><a id=__codelineno-22-14 name=__codelineno-22-14 href=#__codelineno-22-14></a><span class=w>    </span>server_name<span class=w> </span>freemankevin.uk<span class=p>;</span><span class=w> </span>
+</span><span id=__span-22-14><a id=__codelineno-22-14 name=__codelineno-22-14 href=#__codelineno-22-14></a><span class=w>    </span>server_name<span class=w> </span>example.com<span class=p>;</span><span class=w> </span>
 </span><span id=__span-22-15><a id=__codelineno-22-15 name=__codelineno-22-15 href=#__codelineno-22-15></a>
-</span><span id=__span-22-16><a id=__codelineno-22-16 name=__codelineno-22-16 href=#__codelineno-22-16></a><span class=w>    </span>ssl_certificate<span class=w> </span>/etc/letsencrypt/live/freemankevin.uk/fullchain.pem<span class=p>;</span>
-</span><span id=__span-22-17><a id=__codelineno-22-17 name=__codelineno-22-17 href=#__codelineno-22-17></a><span class=w>    </span>ssl_certificate_key<span class=w> </span>/etc/letsencrypt/live/freemankevin.uk/privkey.pem<span class=p>;</span>
+</span><span id=__span-22-16><a id=__codelineno-22-16 name=__codelineno-22-16 href=#__codelineno-22-16></a><span class=w>    </span>ssl_certificate<span class=w> </span>/etc/letsencrypt/live/example.com/fullchain.pem<span class=p>;</span>
+</span><span id=__span-22-17><a id=__codelineno-22-17 name=__codelineno-22-17 href=#__codelineno-22-17></a><span class=w>    </span>ssl_certificate_key<span class=w> </span>/etc/letsencrypt/live/example.com/privkey.pem<span class=p>;</span>
 </span><span id=__span-22-18><a id=__codelineno-22-18 name=__codelineno-22-18 href=#__codelineno-22-18></a>
 </span><span id=__span-22-19><a id=__codelineno-22-19 name=__codelineno-22-19 href=#__codelineno-22-19></a><span class=w>    </span>location<span class=w> </span>~<span class=w> </span>/.well-known/acme-challenge<span class=w> </span><span class=o>{</span>
 </span><span id=__span-22-20><a id=__codelineno-22-20 name=__codelineno-22-20 href=#__codelineno-22-20></a><span class=w>        </span>allow<span class=w> </span>all<span class=p>;</span>
