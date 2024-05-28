@@ -214,7 +214,7 @@ nav:
     - Redhat offline package: linux/Redhat-offline-package.md
   
   - Security:
-    - NGINX: Security/Public Free Certificate Application and Automatic Renewal.md
+    - NGINX: Security/Nginx-TLS.md
   
   - CICD:
     - Jenkins: cicd/Jenkins-Pipeline.md
