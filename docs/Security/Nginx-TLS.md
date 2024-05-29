@@ -314,7 +314,7 @@ services:
 server {
     listen [::]:80;
     listen 80;
-    server_name example.com;
+    server_name example.com www.example.com; 
     location ~/.well-known/acme-challenge {
         allow all;
         root /var/www/certbot;
