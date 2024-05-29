@@ -300,7 +300,7 @@ services:
     command: >- 
              certonly --reinstall --webroot --webroot-path=/var/www/certbot
              --email youremail@example.com --agree-tos --no-eff-email
-             -d example.com
+             -d example.com -d www.example.com
     volumes:
       - ./certbot/letsencrypt:/etc/letsencrypt
       - ./certbot/www:/var/www/certbot
@@ -396,7 +396,7 @@ server {
     listen [::]:80;
     listen 80;
 
-    server_name example.com;
+    server_name example.com www.example.com;
 
     return 301 https://$host$request_uri;
 }
@@ -405,7 +405,7 @@ server {
     listen [::]:443 ssl;
     listen 443 ssl;
 
-    server_name example.com; 
+    server_name example.com www.example.com; 
 
     ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem;
