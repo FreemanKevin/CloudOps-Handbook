@@ -215,7 +215,7 @@ nav:
   
   - Security:
     - NGINX-TLS: Security/Nginx-TLS.md
-    - NGINX-TLS-Local: Security/Nginx-TLS-Local.md
+    - NGINX-TLS-Local: Security/Local-TLS.md
   
   - CICD:
     - Jenkins: cicd/Jenkins-Pipeline.md
