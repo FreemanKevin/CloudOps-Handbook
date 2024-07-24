@@ -213,9 +213,12 @@ nav:
     - Debian offline package: linux/Debian-offline-package.md
     - Redhat offline package: linux/Redhat-offline-package.md
   
+  - Middleware:
+    - Minio: middleware/minio-data-sync.md
+
   - Security:
-    - NGINX-TLS: Security/Nginx-TLS.md
-    - NGINX-TLS-Local: Security/Local-TLS.md
+    - NGINX-TLS: security/Nginx-TLS.md
+    - NGINX-TLS-Local: security/Local-TLS.md
   
   - CICD:
     - Jenkins: cicd/Jenkins-Pipeline.md
