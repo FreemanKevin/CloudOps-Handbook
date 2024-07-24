@@ -311,7 +311,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/freemankevin/cloudops-handbook/middleware/minio-data-rync/</loc>
+         <loc>https://github.com/freemankevin/cloudops-handbook/middleware/minio-sync/</loc>
          <lastmod>2024-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
