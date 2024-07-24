@@ -215,7 +215,8 @@ nav:
   
   - Middleware:
     - Minio: middleware/minio-data-sync.md
-
+  - Scripts:
+    - Translate: scripts/translate.md
   - Security:
     - NGINX-TLS: Security/Nginx-TLS.md
     - NGINX-TLS-Local: Security/Local-TLS.md
