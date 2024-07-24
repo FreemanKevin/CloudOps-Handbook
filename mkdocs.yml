@@ -217,8 +217,8 @@ nav:
     - Minio: middleware/minio-data-sync.md
 
   - Security:
-    - NGINX-TLS: security/Nginx-TLS.md
-    - NGINX-TLS-Local: security/Local-TLS.md
+    - NGINX-TLS: Security/Nginx-TLS.md
+    - NGINX-TLS-Local: Security/Local-TLS.md
   
   - CICD:
     - Jenkins: cicd/Jenkins-Pipeline.md
