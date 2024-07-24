@@ -214,7 +214,7 @@ nav:
     - Redhat offline package: linux/Redhat-offline-package.md
   
   - Middleware:
-    - Minio: middleware/minio-data-sync.md
+    - Minio: middleware/minio-sync.md
   - Scripts:
     - Translate: scripts/translate.md
   - Security:
